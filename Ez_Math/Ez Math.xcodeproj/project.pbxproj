@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14766D131E73DDC0002F524C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14766D121E73DDC0002F524C /* AVFoundation.framework */; };
+		14766D171E73E13E002F524C /* buttonPlay1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14766D151E73E13E002F524C /* buttonPlay1.mp3 */; };
+		14766D191E740FD5002F524C /* inGame2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14766D181E740FD5002F524C /* inGame2.mp3 */; };
+		147BD18F1E72468400F5793B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147BD18E1E72468400F5793B /* Assets.xcassets */; };
+		147BD1911E7258E300F5793B /* 3MinMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147BD1901E7258E300F5793B /* 3MinMode.swift */; };
+		147BD1931E72605100F5793B /* threeMinViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147BD1921E72605100F5793B /* threeMinViewTwo.swift */; };
+		147BD1951E7271A600F5793B /* scoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147BD1941E7271A600F5793B /* scoreView.swift */; };
+		147CC5D01E70BF670014682E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CC5CF1E70BF670014682E /* AppDelegate.swift */; };
+		147CC5D21E70BF670014682E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CC5D11E70BF670014682E /* ViewController.swift */; };
+		147CC5D51E70BF670014682E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147CC5D31E70BF670014682E /* Main.storyboard */; };
+		147CC5DA1E70BF670014682E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147CC5D81E70BF670014682E /* LaunchScreen.storyboard */; };
+		147CC5E51E70BF670014682E /* Ez_MathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CC5E41E70BF670014682E /* Ez_MathTests.swift */; };
+		147CC5F01E70BF670014682E /* Ez_MathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CC5EF1E70BF670014682E /* Ez_MathUITests.swift */; };
+		147CC5FE1E70EB2E0014682E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 147CC5FD1E70EB2E0014682E /* Podfile */; };
+		147CC6001E71070F0014682E /* viewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CC5FF1E71070F0014682E /* viewTwo.swift */; };
+		147CC6021E7108150014682E /* viewThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CC6011E7108150014682E /* viewThree.swift */; };
+		DD20D272AE288076DD4224F0 /* Pods_Ez_Math.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00671B1A27D2BFBDEEE57ED1 /* Pods_Ez_Math.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147CC5E11E70BF670014682E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147CC5C41E70BF670014682E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 147CC5CB1E70BF670014682E;
+			remoteInfo = "Ez Math";
+		};
+		147CC5EC1E70BF670014682E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147CC5C41E70BF670014682E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 147CC5CB1E70BF670014682E;
+			remoteInfo = "Ez Math";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00671B1A27D2BFBDEEE57ED1 /* Pods_Ez_Math.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ez_Math.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14766D121E73DDC0002F524C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		14766D151E73E13E002F524C /* buttonPlay1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = buttonPlay1.mp3; path = ../../../buttonPlay1.mp3; sourceTree = "<group>"; };
+		14766D181E740FD5002F524C /* inGame2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = inGame2.mp3; path = ../../../inGame2.mp3; sourceTree = "<group>"; };
+		147BD18E1E72468400F5793B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		147BD1901E7258E300F5793B /* 3MinMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3MinMode.swift; sourceTree = "<group>"; };
+		147BD1921E72605100F5793B /* threeMinViewTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = threeMinViewTwo.swift; sourceTree = "<group>"; };
+		147BD1941E7271A600F5793B /* scoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scoreView.swift; sourceTree = "<group>"; };
+		147CC5CC1E70BF670014682E /* Ez Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ez Math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		147CC5CF1E70BF670014682E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		147CC5D11E70BF670014682E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		147CC5D41E70BF670014682E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		147CC5D91E70BF670014682E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		147CC5DB1E70BF670014682E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147CC5E01E70BF670014682E /* Ez MathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ez MathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		147CC5E41E70BF670014682E /* Ez_MathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ez_MathTests.swift; sourceTree = "<group>"; };
+		147CC5E61E70BF670014682E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147CC5EB1E70BF670014682E /* Ez MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ez MathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		147CC5EF1E70BF670014682E /* Ez_MathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ez_MathUITests.swift; sourceTree = "<group>"; };
+		147CC5F11E70BF670014682E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147CC5FD1E70EB2E0014682E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		147CC5FF1E71070F0014682E /* viewTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewTwo.swift; sourceTree = "<group>"; };
+		147CC6011E7108150014682E /* viewThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewThree.swift; sourceTree = "<group>"; };
+		3F6AE53C57AFA1CFF64D1BA1 /* Pods-Ez Math.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ez Math.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ez Math/Pods-Ez Math.debug.xcconfig"; sourceTree = "<group>"; };
+		C5907A09493A0CEF043D319F /* Pods-Ez Math.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ez Math.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ez Math/Pods-Ez Math.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147CC5C91E70BF670014682E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14766D131E73DDC0002F524C /* AVFoundation.framework in Frameworks */,
+				DD20D272AE288076DD4224F0 /* Pods_Ez_Math.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147CC5DD1E70BF670014682E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147CC5E81E70BF670014682E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147CC5C31E70BF670014682E = {
+			isa = PBXGroup;
+			children = (
+				147CC5CE1E70BF670014682E /* Ez Math */,
+				147CC5E31E70BF670014682E /* Ez MathTests */,
+				147CC5EE1E70BF670014682E /* Ez MathUITests */,
+				147CC5CD1E70BF670014682E /* Products */,
+				A6D3137CA274A3727575E79F /* Pods */,
+				2E86DBCDFB9A0F498F4E11C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		147CC5CD1E70BF670014682E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147CC5CC1E70BF670014682E /* Ez Math.app */,
+				147CC5E01E70BF670014682E /* Ez MathTests.xctest */,
+				147CC5EB1E70BF670014682E /* Ez MathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147CC5CE1E70BF670014682E /* Ez Math */ = {
+			isa = PBXGroup;
+			children = (
+				147CC5CF1E70BF670014682E /* AppDelegate.swift */,
+				147CC5D11E70BF670014682E /* ViewController.swift */,
+				147CC5D31E70BF670014682E /* Main.storyboard */,
+				147BD1941E7271A600F5793B /* scoreView.swift */,
+				147BD1921E72605100F5793B /* threeMinViewTwo.swift */,
+				147BD1901E7258E300F5793B /* 3MinMode.swift */,
+				147CC5FF1E71070F0014682E /* viewTwo.swift */,
+				147BD18E1E72468400F5793B /* Assets.xcassets */,
+				14766D151E73E13E002F524C /* buttonPlay1.mp3 */,
+				14766D181E740FD5002F524C /* inGame2.mp3 */,
+				147CC6011E7108150014682E /* viewThree.swift */,
+				147CC5FD1E70EB2E0014682E /* Podfile */,
+				147CC5D81E70BF670014682E /* LaunchScreen.storyboard */,
+				147CC5DB1E70BF670014682E /* Info.plist */,
+			);
+			path = "Ez Math";
+			sourceTree = "<group>";
+		};
+		147CC5E31E70BF670014682E /* Ez MathTests */ = {
+			isa = PBXGroup;
+			children = (
+				147CC5E41E70BF670014682E /* Ez_MathTests.swift */,
+				147CC5E61E70BF670014682E /* Info.plist */,
+			);
+			path = "Ez MathTests";
+			sourceTree = "<group>";
+		};
+		147CC5EE1E70BF670014682E /* Ez MathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				147CC5EF1E70BF670014682E /* Ez_MathUITests.swift */,
+				147CC5F11E70BF670014682E /* Info.plist */,
+			);
+			path = "Ez MathUITests";
+			sourceTree = "<group>";
+		};
+		2E86DBCDFB9A0F498F4E11C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14766D121E73DDC0002F524C /* AVFoundation.framework */,
+				00671B1A27D2BFBDEEE57ED1 /* Pods_Ez_Math.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6D3137CA274A3727575E79F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F6AE53C57AFA1CFF64D1BA1 /* Pods-Ez Math.debug.xcconfig */,
+				C5907A09493A0CEF043D319F /* Pods-Ez Math.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		147CC5CB1E70BF670014682E /* Ez Math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147CC5F41E70BF670014682E /* Build configuration list for PBXNativeTarget "Ez Math" */;
+			buildPhases = (
+				528314E173A89E53907371B6 /* [CP] Check Pods Manifest.lock */,
+				147CC5C81E70BF670014682E /* Sources */,
+				147CC5C91E70BF670014682E /* Frameworks */,
+				147CC5CA1E70BF670014682E /* Resources */,
+				4E1E1D8E27FAAEBB77A418D5 /* [CP] Embed Pods Frameworks */,
+				9851D05FC4C65FA71E7C7AE8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ez Math";
+			productName = "Ez Math";
+			productReference = 147CC5CC1E70BF670014682E /* Ez Math.app */;
+			productType = "com.apple.product-type.application";
+		};
+		147CC5DF1E70BF670014682E /* Ez MathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147CC5F71E70BF670014682E /* Build configuration list for PBXNativeTarget "Ez MathTests" */;
+			buildPhases = (
+				147CC5DC1E70BF670014682E /* Sources */,
+				147CC5DD1E70BF670014682E /* Frameworks */,
+				147CC5DE1E70BF670014682E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147CC5E21E70BF670014682E /* PBXTargetDependency */,
+			);
+			name = "Ez MathTests";
+			productName = "Ez MathTests";
+			productReference = 147CC5E01E70BF670014682E /* Ez MathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		147CC5EA1E70BF670014682E /* Ez MathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147CC5FA1E70BF670014682E /* Build configuration list for PBXNativeTarget "Ez MathUITests" */;
+			buildPhases = (
+				147CC5E71E70BF670014682E /* Sources */,
+				147CC5E81E70BF670014682E /* Frameworks */,
+				147CC5E91E70BF670014682E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147CC5ED1E70BF670014682E /* PBXTargetDependency */,
+			);
+			name = "Ez MathUITests";
+			productName = "Ez MathUITests";
+			productReference = 147CC5EB1E70BF670014682E /* Ez MathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147CC5C41E70BF670014682E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Apurva Patel";
+				TargetAttributes = {
+					147CC5CB1E70BF670014682E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7FPR3TKV66;
+						ProvisioningStyle = Automatic;
+					};
+					147CC5DF1E70BF670014682E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 147CC5CB1E70BF670014682E;
+					};
+					147CC5EA1E70BF670014682E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 147CC5CB1E70BF670014682E;
+					};
+				};
+			};
+			buildConfigurationList = 147CC5C71E70BF670014682E /* Build configuration list for PBXProject "Ez Math" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 147CC5C31E70BF670014682E;
+			productRefGroup = 147CC5CD1E70BF670014682E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147CC5CB1E70BF670014682E /* Ez Math */,
+				147CC5DF1E70BF670014682E /* Ez MathTests */,
+				147CC5EA1E70BF670014682E /* Ez MathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		147CC5CA1E70BF670014682E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14766D191E740FD5002F524C /* inGame2.mp3 in Resources */,
+				14766D171E73E13E002F524C /* buttonPlay1.mp3 in Resources */,
+				147CC5DA1E70BF670014682E /* LaunchScreen.storyboard in Resources */,
+				147CC5FE1E70EB2E0014682E /* Podfile in Resources */,
+				147BD18F1E72468400F5793B /* Assets.xcassets in Resources */,
+				147CC5D51E70BF670014682E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147CC5DE1E70BF670014682E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147CC5E91E70BF670014682E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E1E1D8E27FAAEBB77A418D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ez Math/Pods-Ez Math-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		528314E173A89E53907371B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9851D05FC4C65FA71E7C7AE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ez Math/Pods-Ez Math-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147CC5C81E70BF670014682E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147CC6001E71070F0014682E /* viewTwo.swift in Sources */,
+				147BD1911E7258E300F5793B /* 3MinMode.swift in Sources */,
+				147CC6021E7108150014682E /* viewThree.swift in Sources */,
+				147BD1931E72605100F5793B /* threeMinViewTwo.swift in Sources */,
+				147CC5D21E70BF670014682E /* ViewController.swift in Sources */,
+				147BD1951E7271A600F5793B /* scoreView.swift in Sources */,
+				147CC5D01E70BF670014682E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147CC5DC1E70BF670014682E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147CC5E51E70BF670014682E /* Ez_MathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147CC5E71E70BF670014682E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147CC5F01E70BF670014682E /* Ez_MathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		147CC5E21E70BF670014682E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 147CC5CB1E70BF670014682E /* Ez Math */;
+			targetProxy = 147CC5E11E70BF670014682E /* PBXContainerItemProxy */;
+		};
+		147CC5ED1E70BF670014682E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 147CC5CB1E70BF670014682E /* Ez Math */;
+			targetProxy = 147CC5EC1E70BF670014682E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		147CC5D31E70BF670014682E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147CC5D41E70BF670014682E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		147CC5D81E70BF670014682E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147CC5D91E70BF670014682E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147CC5F21E70BF670014682E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Apurva Patel (7FPR3TKV66)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		147CC5F31E70BF670014682E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147CC5F51E70BF670014682E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6AE53C57AFA1CFF64D1BA1 /* Pods-Ez Math.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7FPR3TKV66;
+				INFOPLIST_FILE = "Ez Math/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ApurvaPatel.Ez-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		147CC5F61E70BF670014682E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5907A09493A0CEF043D319F /* Pods-Ez Math.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7FPR3TKV66;
+				INFOPLIST_FILE = "Ez Math/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ApurvaPatel.Ez-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		147CC5F81E70BF670014682E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ez MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Ez-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ez Math.app/Ez Math";
+			};
+			name = Debug;
+		};
+		147CC5F91E70BF670014682E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ez MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Ez-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ez Math.app/Ez Math";
+			};
+			name = Release;
+		};
+		147CC5FB1E70BF670014682E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Ez MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Ez-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ez Math";
+			};
+			name = Debug;
+		};
+		147CC5FC1E70BF670014682E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Ez MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Ez-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ez Math";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147CC5C71E70BF670014682E /* Build configuration list for PBXProject "Ez Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147CC5F21E70BF670014682E /* Debug */,
+				147CC5F31E70BF670014682E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147CC5F41E70BF670014682E /* Build configuration list for PBXNativeTarget "Ez Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147CC5F51E70BF670014682E /* Debug */,
+				147CC5F61E70BF670014682E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147CC5F71E70BF670014682E /* Build configuration list for PBXNativeTarget "Ez MathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147CC5F81E70BF670014682E /* Debug */,
+				147CC5F91E70BF670014682E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147CC5FA1E70BF670014682E /* Build configuration list for PBXNativeTarget "Ez MathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147CC5FB1E70BF670014682E /* Debug */,
+				147CC5FC1E70BF670014682E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 147CC5C41E70BF670014682E /* Project object */;
+}
